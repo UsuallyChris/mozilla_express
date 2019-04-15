@@ -19,4 +19,4 @@ GenreSchema
   });
 
 // export model
-modules.export = mongoose.model('Genre', GenreSchema);
+module.exports = mongoose.model('Genre', GenreSchema);
